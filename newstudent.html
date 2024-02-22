@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url(set1.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+           
+        }
+        a {
+            padding-right: 25px;
+            text-decoration: none;
+            color: navy;
+        }
+
+        #hd {
+            background-color: #40a0e9 100%;
+            color: #33FF49 ;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="hd"><center>
+        <h1>Student Details</h1></center>
+        <hr>
+        <div id="nav"><center>
+            <h2>
+            <a href="home.html">Home</a>
+            <a href="newstudent.html">Student Details</a>
+            <a href="update.html">Modify  Details</a>
+            <a href="remove.html">Remove  Details</a>
+            <a href="read.php">View  Details</a></h2>
+        </center>
+        </div>
+    </div>
+    <center>
+        <form action="insert.php" method="post">
+           <i> <h1>New Student
+                <hr>
+            </h1></i>
+            <img src="avatar3.png" height="125px" width="175px">
+           <h3> Student Name : <input type="text" name="sna" placeholder="Enter your Name" required> <br><br>
+            Student Contact : <input type="text" name="sct" placeholder="Enter your Contact" required> <br><br>
+            Student Address : <input type="text" name="sad" placeholder="Enter your Address" required> <br><br>
+            <button type="reset">Clear</button>
+            <button type="submit">Submit</button></h3>
+        </form>
+    </center>
+</body>
+
+</html>
